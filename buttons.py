@@ -47,5 +47,9 @@ while(1):
 ##                print "Motion FOUND over here"
 ##                GPIO.output(11, 1)
 ##                sleep(0.1)
+
+                AKIAINFKWEF3IL763HVQ
+                AXiAj324cHPd9UqpiM0D/F4swlwqNL1yjFjEN24v
+                
 		
 		
