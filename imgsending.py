@@ -19,12 +19,14 @@ GPIO.setmode(GPIO.BOARD)
 camera = PiCamera()
 
 button = 11
+blueled = 18
 greenled = 16
 redled = 13
 
 GPIO.setup(button, GPIO.IN, pull_up_down=GPIO.PUD_UP)
-GPIO.setup(greenled, GPIO.OUT, initial=0)
+GPIO.setup(greenled, GPIO.OUT, initial = 0)
 GPIO.setup(redled, GPIO.OUT, initial = 0)
+GPIO.setup(blueled, GPIO.OUT, initial = 0)
 
 def read_temp_raw():
     f = open(device_file, 'r')
